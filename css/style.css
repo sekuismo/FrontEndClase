@@ -1,3 +1,21 @@
+/*
+section.subapartado:hover article.info{
+    height: 180px;
+}
+
+Para realizar el menú oculto hay que utilizar la pseudoclase hover, ya que esta interactúa cuando 
+
+el mouse pasa por encima del dicho elemento
+
+
+RECORDAR QUE 
+
+
+*/
+
+header:hover{
+    height:120px
+}
 
 *{
     margin: 0;
@@ -94,3 +112,88 @@ footer{
 
     padding-top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: monospace;
+    font-size: larger;
+}
+body{
+    background-color: rgb(160, 204, 200);
+    
+    margin: auto;
+    
+}
+.titulo{
+    font-size: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-bottom: 10px double beige;
+    
+}
+#principal{
+    width: 600px;
+    min-height: 100px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    overflow:hidden;
+    
+}
+.subapartado{
+    width: 600px;
+    min-height: 50px;
+    background-color: indianred;
+}
+section.subapartado:hover article.info{
+    height: 180px;
+}
+
+
+article.info{
+    color: cornflowerblue;
+    width: 600px;
+    height: 0;
+    transition: height 1s;
+
+}
+
+article.info{
+    background-color: rgb(221, 16, 143);
+}
+
+/*
+
+A la propiedad margin se le pueden agregar varias propiedades 
+
+Se pueden definir dos etiquetas en en una clase = ejemplo 
+
+.titulo p {}
+
+En este caso todos los párrafos que esten dentro de la clase título se verán afectados
+
+en el caso contrario se puede hacer en 
+p.titulo
+
+overflow:hidden
+
+
+*/
+
+
+
+
+

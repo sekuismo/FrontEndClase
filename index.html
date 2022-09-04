@@ -9,14 +9,13 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Club de fans loco rene💕</title>
 </head>
-<body>
+<body onload="startTime()">
     <header>
         <h1>Club de Fans "Loco Rene"</h1>
     </header>
     <nav class="nav1" >
         <div class="texto">
-            <h3 >Links de interés</h2>
-            <br>
+
             <a href="/imgs.html"> imgs</a>
             <a href="/news.html">news</a>
             <a href="/about.html">about</a>
@@ -78,9 +77,14 @@
        Club de Fans loco rene💕 © 2022  
        <br>
        <br>
-       29/08/2022
+       <div id="clockdate">
+        <div class="clockdate-wrapper">
+          <div id="clock"></div>
+          <div id="date"></div>
+        </div>
+      </div>
     </footer>
     
-    
+    <script src="/script.js"></script>
 </body>
 </html>

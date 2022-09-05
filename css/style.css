@@ -37,10 +37,16 @@ header h1{
 .nav1{
     background-color: #C08497;
     height: 40px;
+    overflow: hidden;
     
     
     text-align: center;
 }
+/*
+se utiliza la propiedad overflow hidden
+para ocultar cualquier elemento que sobresalga del límite establecido 
+*/
+
 nav a   {
     padding: 50px;
     font-size: 20px;
@@ -151,6 +157,7 @@ footer{
 .sonnav2 h2{
     color: #F7AF9D;
     font-size: 50px;
+    overflow: hidden;
     
 }
 .sonnav2 img:hover{
@@ -160,6 +167,9 @@ footer{
 .github{
     width: 30px;
     height: 30px;
+}
+main{
+    overflow: hidden;
 }
 
 /*

@@ -33,6 +33,8 @@ header{
 }
 header h1{
     color: #C08497;
+    overflow: hidden;
+    animation:cambiar 5s infinite;
 }
 .nav1{
     background-color: #C08497;
@@ -171,6 +173,20 @@ footer{
 main{
     overflow: hidden;
 }
+
+@keyframes cambiar{
+    0%{margin-left:0px; }
+    25%{margin-left:0px; }
+    25%{margin-left:-40px; }
+    50%{margin-left:-40px; }
+    55%{margin-left:-80px; }
+    85%{margin-left:-40px; }
+    95%{margin-left:-40px; }
+    96%{margin-left:0px; }
+    100%{margin-left:0px; }
+}
+
+
 
 /*
 .clockdate-wrapper {

@@ -28,28 +28,63 @@ body{
 header{
     background-color: #B0D0D3;
     height: 100px;
-    font-size: 30px;
     text-align: center;
+    overflow: hidden;
 }
 header h1{
+    text-align: center;
     color: #C08497;
+    overflow: hidden;
+    animation:animacionDerecha 3s infinite;
+    font-size: 50px;
 }
+
+@keyframes animacionDerecha {
+    0%{padding-left: 30%;}
+    10%{padding-left: 40%;}
+    20%{padding-left: 50%;}
+    30%{padding-left: 60%;}
+    40%{padding-left: 70%;}
+    50%{padding-left: 80%;}
+    60%{padding-left: 90%;}
+    70%{padding-left: 100%;}
+    80%{padding-left: 110%;}
+    90%{padding-left: 120%;}
+    100%{padding-left: 130%;}
+    
+}
+
 .nav1{
     background-color: #C08497;
-    height: 40px;
+    height: 30px;
     overflow: hidden;
     
     
+    
     text-align: center;
+}
+.nav1 h2{
+    
+    padding-bottom: 20px;
 }
 /*
 se utiliza la propiedad overflow hidden
 para ocultar cualquier elemento que sobresalga del límite establecido 
 */
 
-nav a   {
-    padding: 50px;
+nav a    {
+    padding: 20px;
+    margin-top: 100px;
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+    
+    
+
+}
+.nav1 a:hover{
+color: #C23D8E;
 }
 
 
@@ -73,7 +108,7 @@ nav a   {
 
 }
 section{
-    background-color: #F7AF9D;
+    background-color: #C23D8E;
     width: 1500px;
     height: 1000px;
     text-align: center;
@@ -169,98 +204,10 @@ footer{
     height: 30px;
 }
 main{
+    margin-top: 0px;
     overflow: hidden;
-}
-
-/*
-.clockdate-wrapper {
-    background-color: #333;
-    padding:25px;
-    max-width:350px;
-    width:100%;
-    text-align:center;
-    border-radius:5px;
-    margin:0 auto;
-    margin-top:15%;
-}
-#clock{
-    background-color:#333;
-    font-family: sans-serif;
-    font-size:60px;
-    text-shadow:0px 0px 1px #fff;
-    color:#fff;
-}
-#clock span {
-    color:#888;
-    text-shadow:0px 0px 1px #333;
-    font-size:30px;
-    position:relative;
-    top:-27px;
-    left:-10px;
-}
-#date {
-    letter-spacing:10px;
-    font-size:14px;
-    font-family:arial,sans-serif;
-    color:#fff;
-}   
-
-
-
-*/
-
-
-
-
-/*
-*{
-    padding: 0px;
-    margin:0px;
-    font-family: monospace;
-    font-size: larger;
-}
-body{
-    background-color: rgb(160, 204, 200);
+   
     
-    margin: auto;
-    
-}
-.titulo{
-    font-size: 100px;
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    border-bottom: 10px double beige;
-    
-}
-#principal{
-    width: 600px;
-    min-height: 100px;
-    background-color: greenyellow;
-    border-radius: 10px;
-    overflow:hidden;
-    
-}
-.subapartado{
-    width: 600px;
-    min-height: 50px;
-    background-color: indianred;
-}
-section.subapartado:hover article.info{
-    height: 180px;
-}
-
-
-article.info{
-    color: cornflowerblue;
-    width: 600px;
-    height: 0;
-    transition: height 1s;
-
-}
-
-article.info{
-    background-color: rgb(221, 16, 143);
 }
 
 /*

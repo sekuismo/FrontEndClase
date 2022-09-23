@@ -26,31 +26,46 @@ body{
 }
 
 header{
-    background-color: #B0D0D3;
-    height: 100px;
+    
+    height: 192px;
     text-align: center;
     overflow: hidden;
+    
+    
 }
-header h1{
+.banner{
+    
+    
+    margin: -5%;
+    animation:animacionDerecha 5s infinite;
     text-align: center;
-    color: #C08497;
-    overflow: hidden;
-    animation:animacionDerecha 3s infinite;
-    font-size: 50px;
+    
+    
+    
+    
+    
+    
 }
 
+
 @keyframes animacionDerecha {
-    0%{padding-left: 30%;}
-    10%{padding-left: 40%;}
-    20%{padding-left: 50%;}
-    30%{padding-left: 60%;}
-    40%{padding-left: 70%;}
-    50%{padding-left: 80%;}
-    60%{padding-left: 90%;}
-    70%{padding-left: 100%;}
-    80%{padding-left: 110%;}
-    90%{padding-left: 120%;}
-    100%{padding-left: 130%;}
+    0%{margin-top: 0%;}
+    10%{margin-top: 0%;}
+    20%{margin-top: 0%;}
+    30%{margin-top: 0%;}
+    40%{margin-top: -13%;}
+    50%{margin-top: -13%;}
+    60%{margin-top: -13%;}
+    70%{margin-top: -26%;}
+    80%{margin-top: -26%;}
+    90%{margin-top: -26%;}
+    93%{margin-top: -26%; }
+    100%{margin-top: 0%;}
+
+    
+    
+  
+  
     
 }
 
@@ -58,6 +73,7 @@ header h1{
     background-color: #C08497;
     height: 30px;
     overflow: hidden;
+    margin-bottom: 0px;
     
     
     
@@ -204,6 +220,7 @@ footer{
     height: 30px;
 }
 main{
+    padding: 0;
     margin-top: 0px;
     overflow: hidden;
    

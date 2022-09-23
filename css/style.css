@@ -45,6 +45,7 @@ header{
     
     
     
+    
 }
 
 
@@ -153,7 +154,7 @@ form aside{
     text-align: center;
     margin: auto;
     text-align: center;
-    margin-top: 20px;
+   
 
     
 }
@@ -221,8 +222,9 @@ footer{
 }
 main{
     padding: 0;
-    margin-top: 0px;
+    margin: 0px;
     overflow: hidden;
+
    
     
 }
